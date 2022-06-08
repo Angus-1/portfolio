@@ -9,7 +9,6 @@
      <div class="container info-container">
      <div class="info-text">
        <h1>
-        <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" >
        <p class="animate-text-1">Angel Santoyo</p>
        <p class="animate-text-1">Major: Computer Science</p>
        <p class="text-2">California State University, Fullerton</p>
@@ -29,3 +28,4 @@
 <div class="background-div"></div>
 
 
+  
