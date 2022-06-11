@@ -17,3 +17,11 @@
        </div>
      </section>
 </div>
+
+<style>
+  .about-subtitle {
+        max-width: 1400px;
+        margin: 10px auto;
+        font: Consolas
+    }
+</style>

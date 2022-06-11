@@ -2,10 +2,11 @@
 <nav>
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to Homepage">Home</a>
-        <div class="nav-links">
+       
             <a href="/about" class="link">About</a>
             <a href="/projects" class="link">Projects</a>
             <a href="/contact" class="link">Contact</a>
+            <div class="nav-links">
         </div>
     </div>
  </nav>
@@ -21,8 +22,8 @@
         margin: 50px auto;
     }
     :global(body) {
-		background-color: #1d3040;
-		color: #bfc2c7;
+		background-color: #143957;
+		color: #ffffff;
 	}
 
 

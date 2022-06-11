@@ -1,8 +1,11 @@
 
 <p>
-    Email: 
-     <span class="info-text">santoyox714@gmail.com</span>
+     
+     <span class="info-text">Email: santoyox714@gmail.com </span>
      <br>
-    Github: 
-     <span class="info-text">github.com/Angus-1</span>
+     
+     <span class="info-text2"> Github: github.com/Angus-1 </span>
+     <br>
+      
+      <span class="info-text2">Linkedin: linkedin.com/in/asantoyo </span>
   </p>
