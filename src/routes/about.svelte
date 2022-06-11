@@ -1,4 +1,4 @@
-<!-- src/routes/about.svelte -->
+
 <svelte:head>
    <title>About</title>
 </svelte:head>
@@ -7,6 +7,7 @@
    <section>
        <div class="inner-container">
          <h2 class="about-title">About me</h2>
+         <div class = "header-image"></div>
          <div class="about-subtitle">
              <p>
             I'm a first generation student majoring in computer science at CSU Fullerton. 
