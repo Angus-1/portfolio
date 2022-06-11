@@ -2,7 +2,6 @@
 <svelte:head>
    <title>About</title>
 </svelte:head>
-<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" >
 <div class="container">
    <section>
        <div class="inner-container">

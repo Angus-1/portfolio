@@ -2,7 +2,6 @@
 <nav>
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to Homepage">Home</a>
-        <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" >
         <div class="nav-links">
             <a href="/about" class="link">About</a>
             <a href="/projects" class="link">Projects</a>
@@ -17,9 +16,16 @@
  </div>
  
  <style>
-     .container {
+    .container {
         max-width: 1400px;
         margin: 50px auto;
     }
-    
+    :global(body) {
+		background-color: #1d3040;
+		color: #bfc2c7;
+	}
+
+
  </style>
+     
+    
