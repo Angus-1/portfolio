@@ -34,6 +34,8 @@
         margin: 2px auto;
         background-color: #143957;
         color:white;
+        text-indent: 50px;
+        border-radius: 15px;
     }
     
 
