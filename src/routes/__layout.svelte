@@ -12,20 +12,42 @@
  </nav>
  
  <div class="container">
-  <!-- Pages will be injected below -->
+ 
      <slot></slot>
  </div>
  
  <style>
-    .container {
-        max-width: 1400px;
-        margin: 50px auto;
-    }
-    :global(body) {
+     :global(body) {
 		background-color: #143957;
 		color: #ffffff;
+        background-image: url("./src/components/background2.jpg");     
 	}
+    .nav-container {
+        max-width: 1000px;
+        margin: 2px auto;
+        background-color: #143957;
+        color:white
+    }
+    
 
+    
+    a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(126, 191, 245, 0.596);
+  background-color: transparent;
+  text-decoration: underline;
+}
 
  </style>
      

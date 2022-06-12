@@ -10,7 +10,7 @@
          <div class="about-subtitle">
              <p>
             I'm a first generation student majoring in computer science at CSU Fullerton. 
-            I'm very passionate about learning new concepts regularly, specifically about web development, game development and design, as well as software engineering. Outside of school I like to play video games, and  learn about/work on my car and friend's cars.
+            I'm very passionate about learning new concepts regularly, specifically about web development, game development/design, as well as software engineering. Outside of school I like to play video games, learn about cars, and try new foods.
              </p>
              
          </div>
