@@ -19,9 +19,18 @@
 </div>
 
 <style>
-  .about-subtitle {
-        max-width: 1400px;
-        margin: 10px auto;
-        font: Consolas
-    }
+  .about-title {
+       font-size: 3.0rem;
+       font-weight: bold;
+       margin-top: 2rem;
+   }
+   .about-subtitle {
+       margin-top: -2rem;
+   }
+   .about-subtitle >p {
+       width: 70%;
+       font-weight: bold;
+       font-size: 1.5rem;
+       line-height: 2rem;
+   }
 </style>

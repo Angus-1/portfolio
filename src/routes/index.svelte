@@ -16,7 +16,7 @@
      <div class="container info-container">
      <div class="info-text">
        <h1>
-        <img {src} width="175px"  alt="{name} ">
+        <img {src} width="155px"  alt="{name} ">
        <p class="animate-text-1">Angel Santoyo,</p>
        <p class="animate-text-1">Major: Computer Science</p>
        <p class="text-2">California State University, Fullerton</p>
@@ -35,7 +35,7 @@
 
 <style>
   img {
-     border-radius: 50%;
+     border-radius: 45%;
      opacity: 1;
    }
   .info {
@@ -51,7 +51,7 @@
       align-items: start;
   }
   .container {
-  max-width: 1400px;
+  max-width: 1000px;
       margin: 120px 0 0 2.5rem;
   }
   .info h1 {
@@ -60,26 +60,26 @@
   }
   .info h1 p {
       position: relative;
-      font: Comic;
+      font:  Comic;
+      font-size:  50px;
       margin: 0;
   text-align: left;
       line-height: 130%;
       width: fit-content;
-      font-weight: 400;
+      font-weight: 500;
       letter-spacing: -0.03em;
   }
+
   .info h2 {
+    
       max-width: 65ch;
       font-weight: 400;
-      margin-top: 0.50rem;
+      margin-top: 0.03rem;
   }
 .background-div {
-  background-color: var(--background);
-    width: 100%;
-  height: 56vh;
-  margin: -155px auto;
+  width: 100%;
+  margin: -100px auto;
 }
- 
 
   .info .info-text {
       position: relative;

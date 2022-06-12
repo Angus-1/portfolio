@@ -3,9 +3,9 @@
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to Homepage">Home</a>
        
-            <a href="/about" class="link">About</a>
-            <a href="/projects" class="link">Projects</a>
-            <a href="/contact" class="link">Contact</a>
+            <a href="/about" class="link">About  </a>
+            <a href="/projects" class="link">Projects  </a>
+            <a href="/contact" class="link">Contact  </a>
             <div class="nav-links">
         </div>
     </div>
@@ -19,14 +19,21 @@
  <style>
      :global(body) {
 		background-color: #143957;
-		color: #ffffff;
-        background-image: url("./src/components/background2.jpg");     
+		color: #fffefe;
+      background-image: url("./src/components/background2.jpg");     
+      background-size: inherit;
+      background-repeat: repeat;
 	}
+  
+  .container {
+       max-width: 1400px;
+       margin: 50px auto;
+   }
     .nav-container {
-        max-width: 1000px;
+        max-width: 3000px;
         margin: 2px auto;
         background-color: #143957;
-        color:white
+        color:white;
     }
     
 
