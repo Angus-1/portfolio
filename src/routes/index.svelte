@@ -52,7 +52,7 @@
   }
   .container {
   max-width: 1000px;
-      margin: 120px 0 0 2.5rem;
+      margin: 10px 0 0 -2.5rem;
   }
   .info h1 {
       font-size: 4rem;
