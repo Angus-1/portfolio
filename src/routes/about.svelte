@@ -4,16 +4,15 @@
 </svelte:head>
 <div class="container">
    <section>
-       <div class="inner-container">
+       
          <h2 class="about-title">About me</h2>
          <div class = "header-image"></div>
          <div class="about-subtitle">
              <p>
             I'm a first generation student majoring in computer science at California State University, Fullerton. 
-            I'm very passionate about learning new concepts regularly, specifically about web development, game development/design, as well as software engineering. Outside of school I like to play video games, learn about cars, and try new foods.
+            I'm very passionate about learning new concepts regularly, specifically about web development, game development/design, and software engineering. Outside of school I like to play video games, learn about cars, and try new foods.
              </p>
              
-         </div>
        </div>
      </section>
 </div>

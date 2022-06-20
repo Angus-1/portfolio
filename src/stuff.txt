@@ -1,1 +1,14 @@
 <a href="/about">About me</a><div class="arrow">→</div>  adding a button to take you to other page
+
+
+<script>
+	let src = './src/components/profile.png';
+	let name = 'about me image';
+</script>
+
+<img {src} width="155px"  alt="{name} ">
+
+ img {
+     border-radius: 45%;
+     opacity: 1;
+   }

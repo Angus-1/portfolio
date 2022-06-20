@@ -1,9 +1,6 @@
 <!-- src/routes/index.svelte -->
 
-<script>
-	let src = './src/components/profile.png';
-	let name = 'about me image';
-</script>
+
 
 
 <svelte:head>
@@ -11,78 +8,52 @@
 </svelte:head>
 
 <div class="container">
- <div class="info">
-   <div class="animate-background">
-     <div class="container info-container">
-     <div class="info-text">
+ 
        <h1>
-        <img {src} width="155px"  alt="{name} ">
-       <p class="animate-text-1">Angel Santoyo,</p>
-       <p class="animate-text-1">Major: Computer Science</p>
-       <p class="text-2">California State University, Fullerton</p>
-       
+       <p class="text-1">Hello! My name is</p>
+       <p class="text-2">Angel Santoyo</p>
        </h1>
+       <p class="text-3"> California State University, Fullerton</p>
+       <p class="subtitle">Major: Computer science </p>
      </div>
-     <h2 class="subtitle">
-      Hello!
-     </h2>
-    
-     </div>
-   </div>
- </div>
-</div>
+     
+
 <div class="background-div"></div>
 
 <style>
-  img {
-     border-radius: 45%;
-     opacity: 1;
-   }
-  .info {
-      text-align: center;
-      position: relative;
-  }       
-  .info-container {
-      height: 100%;
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: left;
-      align-items: start;
-  }
   .container {
-  max-width: 1000px;
-      margin: 10px 0 0 -2.5rem;
-  }
-  .info h1 {
-      font-size: 4rem;
-      margin: 0;
-  }
-  .info h1 p {
-      position: relative;
+    position: relative;
+      max-width: fit-content;
+      text-align: left;
       font:  Comic;
-      font-size:  50px;
-      margin: 0;
-  text-align: left;
-      line-height: 130%;
-      width: fit-content;
-      font-weight: 500;
+      margin: 0rem 0rem 0rem -5rem;
+      line-height: 4rem;
+  }
+  .text-1 {
+      font-size: 4rem;
+      margin: 0rem;
+      font-weight: 200;
       letter-spacing: -0.03em;
   }
+ .text-2{
+  font-size: 4rem;
+  margin: 0rem;
+  font-weight: 500;
+  
+ }   
+ .text-3{
+  font-size: 3rem;  
+  margin: 0rem;
+  margin-top: 0rem;
+  font-weight: 200;
+  line-height: 3rem;
+ }    
 
-  .info h2 {
-    
-      max-width: 65ch;
-      font-weight: 400;
-      margin-top: 0.03rem;
+  .subtitle {
+     font-size: 2rem;
+     margin: 0rem;
+    font-weight: 200;
   }
-.background-div {
-  width: 100%;
-  margin: -100px auto;
-}
 
-  .info .info-text {
-      position: relative;
-  }
-
+ 
 </style>
