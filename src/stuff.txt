@@ -12,3 +12,9 @@
      border-radius: 45%;
      opacity: 1;
    }
+
+
+adds image that is clickable
+   <div class="slider-here">
+    <a href="http://www.example.com"><img class="home-img" src="/path-to-image" /></a>
+   </div>

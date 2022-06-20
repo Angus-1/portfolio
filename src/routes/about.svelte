@@ -20,15 +20,13 @@
 <style>
   .about-title {
        font-size: 3.0rem;
-       font-weight: bold;
+       font-weight: 650;
        margin-top: 2rem;
    }
    .about-subtitle {
        margin-top: -2rem;
-   }
-   .about-subtitle >p {
        width: 70%;
-       font-weight: bold;
+       font-weight: 500;
        font-size: 1.5rem;
        line-height: 2rem;
    }
