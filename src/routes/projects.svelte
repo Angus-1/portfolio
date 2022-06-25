@@ -1,10 +1,10 @@
 <script>
-	import Item from './accordian.svelte'
+	import Item from './dropdown.svelte'
 	const data = {
 		'Projects': 
       ["info here"],
       
-		'Experience': ["info here"],
+		'Experience': ["exp here"],
 		
 	}
 </script>
