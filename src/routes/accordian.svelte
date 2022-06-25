@@ -20,7 +20,7 @@ stroke-linejoin="round"
 {#if isOpen}
 <ul transition:slide={{ duration: 300 }}>
 	{#each entry[1] as item}
-	<openButton>	{item}	</openButton>
+	<li>	{item}	</li>
 	{/each}
 </ul>
 {/if}
@@ -37,7 +37,7 @@ padding-bottom: 0.5em;
 padding-top: 0.5em;
 position: center;
  }
- openButton {
+ li {
 border:1px solid #ffffff;
 border-radius: 10px;
 background:rgb(14, 45, 85);
