@@ -1,25 +1,19 @@
-export const experience = [
+export const experiences = [
 	{
-		heading: 'Job1',
-		content:
-			'test test test test test',
+		heading: 'Ingram Micro - Database Intern',
+		content: 
+			'Responsible for Oracle database setup, configuration and back/recovery  over linux command prompt via SSH' ,
+		link: 'https://corp.ingrammicro.com/en-us/company/overview'
+	},
+	{
+		heading: 'Db&m Media - Data/Web Specialist',
+		content:'Researched/compiled data on potential high value clients for company services, and maintened database of over 2000 clients',
 		link: 'google.com'
 	},
 	{
-		heading: ' Job2',
-		content:'test test test test test',
-		link: 'google.com'
-	},
-	{
-		heading: 'Job3',
+		heading: 'Target - Tech Consultant',
 		content:
-			"test test test test test ",
-		link: 'google.com'
+			"Provide personalized tech solutions through guest engagement, product training, and demo events. ",
+		link: 'https://corporate.target.com/about'
 	},
-	{
-		heading: 'Job4',
-		content:
-			'test test test test test',
-		link: 'google.com'
-	}
 ];

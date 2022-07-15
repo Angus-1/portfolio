@@ -11,9 +11,9 @@
 	<button class={isOpen ? 'active' : ''} on:click={toggle} aria-expanded={isOpen}>
 		<span class="heading">{heading}</span>
 		{#if isOpen}
-			<span class="icon">&minus;</span>
+			<span class="icon">➖</span>
 		{:else}
-			<span class="icon">&plus;</span>
+			<span class="icon">➕</span>
 		{/if}
 	</button>
 
@@ -65,7 +65,7 @@
 
 	button:hover {
 		border-radius: 25px;
-		background-color: rgb(57, 105, 168);
+		background-color: rgb(38, 88, 153);
 		color: var(--text);
 	}
 
@@ -89,7 +89,7 @@
 
 	.inside {
 		border-radius: 25px;
-		background-color: rgb(57, 105, 168);
+		background-color:  rgb(38, 88, 153);
 		text-align: left;
 		height: auto;
 		margin: 0;
