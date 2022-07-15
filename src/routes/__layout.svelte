@@ -4,7 +4,7 @@
         <a href="/" class="nav-logo" title="Back to Homepage">Home</a>
        
             <a href="/about" class="link">About  </a>
-            <a href="/projects" class="link">Projects  </a>
+            <a href="/Experience" class="link">Experience  </a>
             <a href="/contact" class="link">Contact  </a>
             <div class="nav-links">
         </div>
@@ -20,7 +20,7 @@
      :global(body) {
 		background-color: #143957;
 		color: #fffefe;
-      background-image: url("./src/components/background2.jpg");     
+      background-image: url("./static/background2.jpg");     
       background-size: inherit;
       background-repeat: repeat;
 	}

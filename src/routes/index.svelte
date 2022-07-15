@@ -11,10 +11,10 @@
  
        <h1>
        <p class="text-1">Hello! My name is</p>
-       <p class="text-2">Angel Santoyo</p>
+       <p class="text-2"> Angel</p>
        </h1>
-       <p class="text-3"> California State University, Fullerton</p>
-       <p class="subtitle">Major: Computer science </p>
+       <p class="text-3"> Computer science student</p>
+       <p class="subtitle"> California State University, Fullerton </p>
      </div>
      
 
