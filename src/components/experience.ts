@@ -7,8 +7,8 @@ export const experiences = [
 	},
 	{
 		heading: 'Db&m Media - Data/Web Specialist',
-		content:'Researched/compiled data on potential high value clients for company services, and maintened database of over 2000 clients',
-		link: 'google.com'
+		content:'Researched/compiled data on potential high value clients for company services, and maintened database of over two thousand potential clients',
+		link: 'https://www.dbm-media.com/'
 	},
 	{
 		heading: 'Target - Tech Consultant',

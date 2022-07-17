@@ -7,6 +7,8 @@
 	const toggle = () => (isOpen = !isOpen);
 </script>
 
+
+
 <div class="Dropdown">
 	<button class={isOpen ? 'active' : ''} on:click={toggle} aria-expanded={isOpen}>
 		<span class="heading">{heading}</span>
@@ -122,7 +124,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		color: rgb(62, 104, 241);
+		color:  rgb(38, 88, 153);
 		font-size: 1.5rem;
 		margin: 0;
 		padding: 0.5em;
@@ -137,5 +139,11 @@
 	.link-text:hover {
 		background-color: var(--left);
 		color: var(--text);
+		color: white;
+		
 	}
+
+
+
+
 </style>

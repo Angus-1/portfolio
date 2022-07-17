@@ -2,7 +2,8 @@
 <nav>
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to Homepage">Home</a>
-       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
             <a href="/about" class="link">About  </a>
             <a href="/Experience" class="link">Experience  </a>
             <a href="/contact" class="link">Contact  </a>
@@ -21,7 +22,7 @@
 		background-color: #143957;
 		color: #fffefe;
       background-image: url("./static/background2.jpg");     
-      background-size: inherit;
+      background-size: 100%;
       background-repeat: repeat;
 	}
   
@@ -30,7 +31,7 @@
        margin: 50px auto;
    }
     .nav-container {
-        max-width: 3000px;
+        max-width: 100%;;
         margin: 2px auto;
         background-color: #143957;
         color:white;
