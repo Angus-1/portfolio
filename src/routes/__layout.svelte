@@ -4,9 +4,9 @@
         <a href="/" class="nav-logo" title="Back to Homepage">Home</a>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <a href="/about" class="link">About  </a>
-            <a href="/Experience" class="link">Experience  </a>
-            <a href="/contact" class="link">Contact  </a>
+            <a href="/#About" class="link">About  </a>
+            <a href="/#Experience" class="link">Experience  </a>
+            <a href="/#Contact" class="link">Contact  </a>
             <div class="nav-links">
         </div>
     </div>

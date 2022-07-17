@@ -14,7 +14,7 @@ import { experiences } from '../components/experience';
 
 <!------------------ welcome below ------------------------>
 <section id = welcome> 
-<div class="container">
+<div class="welcome-container">
  
        <h1>
        <p class="text-1">Hello! My name is</p>
@@ -31,17 +31,15 @@ import { experiences } from '../components/experience';
 <!------------------ about below ------------------------>
 
 <section id = About> 
-<div class="container">
+<div class="about-container">
    <section>
-       
          <h2 class="about-title">About me</h2>
          <div class = "header-image"></div>
          <div class="about-subtitle">
              <p>
             I'm a first generation student majoring in computer science at California State University, Fullerton. 
             I'm very passionate about learning new concepts regularly, specifically about web development, game development/design, and software engineering. Outside of school I like to play video games, learn about cars, and try new foods.
-             </p>
-             
+             </p>     
        </div>
      </section>
 </div>
@@ -90,8 +88,8 @@ import { experiences } from '../components/experience';
 
    <!------------------ css below ------------------------> 
 <style>
-   
-  .container {
+      /*------------------  welcome css  ------------------ */
+  .welcome-container {
     position: relative;
       max-width: fit-content;
       text-align: left;
@@ -101,6 +99,8 @@ import { experiences } from '../components/experience';
       margin: 0;
       padding:0;
   }
+  
+
   .text-1 {
       font-size: 4rem;
       margin: 0rem;
@@ -122,12 +122,17 @@ import { experiences } from '../components/experience';
   line-height: 3rem;
   color:white;
  }    
-
   .subtitle {
      font-size: 2rem;
      margin: 0rem;
     font-weight: 200;
     color:white;
+  }
+
+ /*------------------  about css  ------------------ */
+  .about-container {
+      margin-top: 30rem;
+      padding:0;
   }
   .about-title {
        font-size: 3.0rem;
@@ -144,13 +149,21 @@ import { experiences } from '../components/experience';
        line-height: 2rem;
        color:white;
    }
-   .prof-exp{
-    margin-top: 30rem;
-    color:white;
-   }
 
+
+ /*------------------  experience css  ------------------ */
+
+   .prof-exp{
+    margin-top: 50rem;
+    margin-bottom: 20rem;
+    color:white;
+    
+      padding:0;
+   }
+ /*------------------  contact css  ------------------ */
    .contact-info {
-    margin-top: 20rem;
+    margin-top: 50rem;
+    margin-bottom: 20rem;
   width:500px;
   height:125px;
   border:1px solid #ffffff;
