@@ -99,8 +99,6 @@ import { experiences } from '../components/experience';
       margin: 0;
       padding:0;
   }
-  
-
   .text-1 {
       font-size: 4rem;
       margin: 0rem;
@@ -131,7 +129,8 @@ import { experiences } from '../components/experience';
 
  /*------------------  about css  ------------------ */
   .about-container {
-      margin-top: 30rem;
+      position: relative;
+      top: 10rem;
       padding:0;
   }
   .about-title {
@@ -154,8 +153,10 @@ import { experiences } from '../components/experience';
  /*------------------  experience css  ------------------ */
 
    .prof-exp{
-    margin-top: 50rem;
-    margin-bottom: 20rem;
+    margin-top: 40rem;
+    margin-bottom: 40rem;
+    position: relative;
+    top: 7rem;
     color:white;
     
       padding:0;
