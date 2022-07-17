@@ -89,14 +89,21 @@ import { experiences } from '../components/experience';
    <!------------------ css below ------------------------> 
 <style>
       /*------------------  welcome css  ------------------ */
+      :global(body) {
+  background-color: #143957;
+  color: #fffefe;
+    background-image: url("./src/components/background3.jpg");     
+    background-size: inherit;
+    background-repeat: repeat;
+}
   .welcome-container {
-    position: relative;
+      position: relative;
       max-width: fit-content;
       text-align: left;
       font:  Comic;
       margin: 0rem 0rem 0rem -5rem;
       line-height: 4rem;
-      margin: 0;
+      top: 10rem;
       padding:0;
   }
   .text-1 {
@@ -130,8 +137,8 @@ import { experiences } from '../components/experience';
  /*------------------  about css  ------------------ */
   .about-container {
       position: relative;
-      top: 10rem;
-      padding:0;
+      top: 14rem;
+      padding:0; 
   }
   .about-title {
        font-size: 3.0rem;

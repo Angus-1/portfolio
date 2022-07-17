@@ -55,13 +55,8 @@
 		border-radius: 25px;
 		justify-content: space-between;
 		align-items: center;
-		
-		
 		display: flex;
 		color: var(--left);
-		
-		
-	
 		padding: 0.5em;
 	}
 
