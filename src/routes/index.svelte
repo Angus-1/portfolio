@@ -20,7 +20,7 @@ import { experiences } from '../components/experience';
        <p class="text-1">Hello! My name is</p>
        <p class="text-2"> Angel</p>
        </h1>
-       <p class="text-3"> Computer science student</p>
+       <p class="text-3"> Computer science student  </p>
        <p class="subtitle"> California State University, Fullerton </p>
      </div>
      
@@ -30,7 +30,7 @@ import { experiences } from '../components/experience';
 
 <!------------------ about below ------------------------>
 
-<section id = about> 
+<section id = About> 
 <div class="container">
    <section>
        
@@ -48,8 +48,8 @@ import { experiences } from '../components/experience';
 </section>
 
 <!------------------ work below ------------------------>
-<section id="experience">
-  <div class="experience-space"> 
+<section id="Experience">
+  <div class="prof-exp"> 
 	<div class="work-experience">
 		<h1 class="header">Experience</h1>			
 			{#each experiences as experience}
@@ -70,7 +70,7 @@ import { experiences } from '../components/experience';
 
 <!------------------ contact below ------------------------>
 
-    <section id="contact">   
+    <section id="Contact">   
       <div class="contact-info">
         <p>   
             <span class="contact-text"> 
@@ -106,13 +106,13 @@ import { experiences } from '../components/experience';
       margin: 0rem;
       font-weight: 200;
       letter-spacing: -0.03em;
-      
+      color:white;
   }
  .text-2{
   font-size: 4rem;
   margin: 0rem;
   font-weight: 500;
-  
+  color:white;
  }   
  .text-3{
   font-size: 3rem;  
@@ -120,17 +120,20 @@ import { experiences } from '../components/experience';
   margin-top: 0rem;
   font-weight: 200;
   line-height: 3rem;
+  color:white;
  }    
 
   .subtitle {
      font-size: 2rem;
      margin: 0rem;
     font-weight: 200;
+    color:white;
   }
   .about-title {
        font-size: 3.0rem;
        font-weight: 650;
        margin-top: 30rem;
+       color:white;
    }
    
    .about-subtitle {
@@ -139,9 +142,11 @@ import { experiences } from '../components/experience';
        font-weight: 500;
        font-size: 1.5rem;
        line-height: 2rem;
+       color:white;
    }
-   .experience-space{
+   .prof-exp{
     margin-top: 30rem;
+    color:white;
    }
 
    .contact-info {

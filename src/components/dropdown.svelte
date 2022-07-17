@@ -73,7 +73,7 @@
 
 	button:active {
 		border-radius: 25px;
-		background-color: var(--split);
+		background-color: white;
 		color: var(--text);
 	}
 
