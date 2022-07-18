@@ -20,8 +20,8 @@ import { experiences } from '../components/experience';
        <p class="text-1">Hello! My name is</p>
        <p class="text-2"> Angel</p>
        </h1>
-       <p class="text-3"> Computer science student  </p>
-       <p class="subtitle"> California State University, Fullerton </p>
+       <p class="text-3"> 💻 Aspiring Software Engineer 📱 </p>
+       <p class="subtitle">  🔹 California State University, Fullerton 🔸 🐘 </p>
      </div>
      
 
@@ -37,8 +37,11 @@ import { experiences } from '../components/experience';
          <div class = "header-image"></div>
          <div class="about-subtitle">
              <p>
-            I'm a first generation student majoring in computer science at California State University, Fullerton. 
-            I'm very passionate about learning new concepts regularly, specifically about web development, game development/design, and software engineering. Outside of school I like to play video games, learn about cars, and try new foods.
+            I'm a first generation student majoring in computer science at California State University, Fullerton. <br><br>
+            
+            I really enjoy learning new concepts on a regular basis, some fields I find pretty interesting to research in my free time are web development, game development, and occasionally cyber security. <br><br>
+           
+            Outside of school I like to play video games, learn about cars, and try new foods. My favorite game franchise is the Elder Scrolls series and my favorite food is Sushi! 
              </p>     
        </div>
      </section>
@@ -49,14 +52,14 @@ import { experiences } from '../components/experience';
 <section id="Experience">
   <div class="prof-exp"> 
 	<div class="work-experience">
-		<h1 class="header">Experience</h1>			
+		<h1 class="header">Experience  <br>______________________________________________________________<br></h1>			
 			{#each experiences as experience}
 				<Dropdown heading={experience.heading} content={experience.content} link={experience.link}/>
 			{/each}
 		</div>
 
     <div class="projects">
-      <h1 class="project-experience">Projects</h1>			
+      <h1 class="project-experience">Projects <br>______________________________________________________________<br></h1>			
         {#each projects as project}
           <Dropdown heading={project.heading} content={project.content} link={project.link}/>
         {/each}
@@ -95,6 +98,7 @@ import { experiences } from '../components/experience';
     background-image: url("./src/components/background3.jpg");     
     background-size: inherit;
     background-repeat: repeat;
+    
 }
   .welcome-container {
       position: relative;
