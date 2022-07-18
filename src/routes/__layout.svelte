@@ -26,10 +26,6 @@
 </div>
 
 <style global>
-  html {
-    height: 100%;
-}
-
    :global(body) {
     height: 100%;
     background-color: #5db5fd;
