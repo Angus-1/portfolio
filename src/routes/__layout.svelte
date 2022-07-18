@@ -25,13 +25,20 @@
   <slot></slot>
 </div>
 
-<style>
+<style global>
+  html {
+    height: 100%;
+}
+
    :global(body) {
-  background-color: #143957;
+    height: 100%;
+    background-color: #5db5fd;
+    background-size: auto;
   color: #fffefe;
-    background-image: url("./src/components/background3.jpg");     
+    background-image: ("./static/background2.jpg");     
     background-size: inherit;
     background-repeat: repeat;
+   
 }
 
 

@@ -103,6 +103,7 @@ import { experiences } from '../components/experience';
       font:  Comic;
       margin: 0rem 0rem 0rem -5rem;
       line-height: 4rem;
+      margin: 0;
       top: 10rem;
       padding:0;
   }
@@ -137,7 +138,7 @@ import { experiences } from '../components/experience';
  /*------------------  about css  ------------------ */
   .about-container {
       position: relative;
-      top: 14rem;
+      top: 10rem;
       padding:0; 
   }
   .about-title {
