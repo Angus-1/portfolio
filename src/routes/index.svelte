@@ -4,7 +4,10 @@
   import Dropdown from '../components/dropdown.svelte';
   import { projects } from '../components/projects';
 import { experiences } from '../components/experience';
-  
+  let Github = './static/github.png';
+	let Gmail = './static/gmail.png';
+  let Linkedin = './static/linkedin';
+  let name = 'contact image';
 </script>
 
 
@@ -74,16 +77,18 @@ import { experiences } from '../components/experience';
     <section id="Contact">   
       <div class="contact-info">
         <p>   
+       
+    
             <span class="contact-text"> 
-            <a href="http://www.santoyox714@gmail.com"> Email: santoyox714@gmail.com </a>
+            <a href="http://www.santoyox714@gmail.com"> 📧Email </a>
             </span>
             <br>
             <span class="contact-text2">  
-                <a href="https://github.com/Angus-1"> Github: github.com/Angus-1 </a>
+                <a href="https://github.com/Angus-1">  💻Github </a>
             </span>
             <br>
              <span class="contact-text3">
-                <a href="https://www.linkedin.com/in/asantoyo/"> Linkedin: linkedin.com/in/asantoyo/</a>
+                <a href="https://www.linkedin.com/in/asantoyo/"> 👥Linkedin </a>
              </span>
          </p>
         </div>
@@ -180,9 +185,11 @@ import { experiences } from '../components/experience';
   width:500px;
   height:125px;
   border:1px solid #ffffff;
-  background:rgb(38, 88, 153);;
-  position:center;
+  background:rgb(46, 67, 105);;
   border-radius: 10px;
+  font-weight: 600;
+  margin-left: 2.5em
+
 }
 
 a:link {

@@ -41,12 +41,14 @@
   .nav-container {
         max-width: 100%;;
         margin: 3px auto;
-        background-color: #143957;
+        background-color: transparent;
         color:white;
         text-indent: 70px;
-        border-radius: 15px;
+        border-radius: 10px;
         padding: 1rem;
         display: flex;
+        font-weight: 600;
+        font-size:x-large;
   }
   
 
