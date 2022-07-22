@@ -148,7 +148,10 @@ import { experiences } from '../components/experience';
   .about-container {
       position: relative;
       top: 10rem;
-      padding:0; 
+      padding:0;
+      background-color: #0a4e85; 
+      border-radius: 10px;
+    
   }
   .about-title {
        font-size: 3.0rem;
@@ -175,8 +178,9 @@ import { experiences } from '../components/experience';
     position: relative;
     top: 7rem;
     color:white;
-    
+    background-color: #0a4e85;
       padding:0;
+    border-radius: 10px;
    }
  /*------------------  contact css  ------------------ */
    .contact-info {
@@ -184,8 +188,8 @@ import { experiences } from '../components/experience';
     margin-bottom: 20rem;
   width:500px;
   height:125px;
-  border:1px solid #ffffff;
-  background:rgb(46, 67, 105);;
+  border:1px;
+  background-color:#0a4e85 ;
   border-radius: 10px;
   font-weight: 600;
   margin-left: 2.5em
