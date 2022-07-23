@@ -150,7 +150,12 @@ import { experiences } from '../components/experience';
       top: 10rem;
       padding:0;
       background-color: #0a4e85; 
+      background-position-x: right; 
       border-radius: 10px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+    
+   
     
   }
   .about-title {
@@ -158,6 +163,7 @@ import { experiences } from '../components/experience';
        font-weight: 650;
        margin-top: 30rem;
        color:white;
+       text-align: center;
    }
    
    .about-subtitle {
