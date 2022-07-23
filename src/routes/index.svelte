@@ -192,6 +192,7 @@ import { experiences } from '../components/experience';
   background-color:#0a4e85 ;
   border-radius: 10px;
   font-weight: 600;
+  font-size: x-large;
   margin-left: 2.5em
 
 }
