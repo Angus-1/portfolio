@@ -154,9 +154,6 @@ import { experiences } from '../components/experience';
       border-radius: 10px;
       padding-left: 20px;
       padding-bottom: 10px;
-    
-   
-    
   }
   .about-title {
        font-size: 3.0rem;
@@ -184,7 +181,7 @@ import { experiences } from '../components/experience';
     position: relative;
     top: 7rem;
     color:white;
-    background-color: #0a4e85;
+    background-color: #0a4e85; 
       padding:0;
     border-radius: 10px;
    }
