@@ -59,7 +59,7 @@ import { experiences } from '../components/experience';
 			{#each experiences as experience}
 				<Dropdown heading={experience.heading} content={experience.content} link={experience.link}/>
 			{/each}
-		</div>
+		</div></div>
 
     <div class="projects">
       <h1 class="project-experience">Projects <br>______________________________________________________________<br></h1>			
@@ -67,7 +67,6 @@ import { experiences } from '../components/experience';
           <Dropdown heading={project.heading} content={project.content} link={project.link}/>
         {/each}
       </div>
-    </div>
 </section>
 
 		
@@ -177,9 +176,20 @@ import { experiences } from '../components/experience';
 
    .prof-exp{
     margin-top: 40rem;
-    margin-bottom: 40rem;
+    margin-bottom: 10rem;
     position: relative;
     top: 7rem;
+    color:white;
+    background-color: #0a4e85; 
+      padding:0;
+    border-radius: 10px;
+   }
+
+   .projects{
+  
+    
+    position: relative;
+    
     color:white;
     background-color: #0a4e85; 
       padding:0;
