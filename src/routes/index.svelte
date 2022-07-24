@@ -55,7 +55,7 @@ import { experiences } from '../components/experience';
 <section id="Experience">
   <div class="prof-exp"> 
 	<div class="work-experience">
-		<h1 class="header">Experience  <br>______________________________________________________________<br></h1>			
+		<h1 class="exp-header">Experience  <br>______________________________________________________________<br></h1>			
 			{#each experiences as experience}
 				<Dropdown heading={experience.heading} content={experience.content} link={experience.link}/>
 			{/each}
@@ -181,19 +181,18 @@ import { experiences } from '../components/experience';
     top: 7rem;
     color:white;
     background-color: #053f6e; 
-      padding:0;
+    padding:0;
     border-radius: 10px;
+    padding-left: 10px;
    }
 
    .projects{
-  
-    
     position: relative;
-    
     color:white;
     background-color: #053f6e;  
-      padding:0;
+    padding:0;
     border-radius: 10px;
+    padding-left: 10px;
    }
  /*------------------  contact css  ------------------ */
    .contact-info {
