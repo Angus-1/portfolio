@@ -44,7 +44,7 @@ import { experiences } from '../components/experience';
             
             I really enjoy learning new concepts on a regular basis, some fields I find pretty interesting to research in my free time are web development, game development, and occasionally cyber security. <br><br>
            
-            Outside of school I like to play video games, learn about cars, and try new foods. My favorite game franchise is the Elder Scrolls series and my favorite food is Sushi! 
+            Outside of school I like to play video games, learn about cars, listen to music, and try new foods. My favorite game franchise is the Elder Scrolls series and my favorite food is Sushi! 
              </p>     
        </div>
      </section>
