@@ -148,7 +148,7 @@ import { experiences } from '../components/experience';
       position: relative;
       top: 10rem;
       padding:0;
-      background-color: #0a4e85; 
+      background-color: #053f6e; 
       background-position-x: right; 
       border-radius: 10px;
       padding-left: 20px;
@@ -180,7 +180,7 @@ import { experiences } from '../components/experience';
     position: relative;
     top: 7rem;
     color:white;
-    background-color: #0a4e85; 
+    background-color: #053f6e; 
       padding:0;
     border-radius: 10px;
    }
@@ -191,7 +191,7 @@ import { experiences } from '../components/experience';
     position: relative;
     
     color:white;
-    background-color: #0a4e85; 
+    background-color: #053f6e;  
       padding:0;
     border-radius: 10px;
    }
