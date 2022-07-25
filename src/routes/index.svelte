@@ -92,6 +92,7 @@ import { experiences } from '../components/experience';
          </p>
         </div>
   </section>
+  
 
    <!------------------ css below ------------------------> 
 <style>
@@ -226,4 +227,8 @@ color: rgba(126, 191, 245, 0.596);
 background-color: transparent;
 text-decoration: underline;
 }
+
+/*------------------  footer css  ------------------ */
+
+
 </style>

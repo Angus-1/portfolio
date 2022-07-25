@@ -6,6 +6,10 @@
 		['Contact', '#Contact']
 	];
 
+  const foots = [
+		['Made by Angel Santoyo', '#Home']
+	];
+
 	let innerWidth = 0
 	let innerHeight = 0
 	$: mobile = innerWidth < 1080;
@@ -24,6 +28,19 @@
 <div class="content">
   <slot></slot>
 </div>
+<!------------------ footer  below ------------------------>
+<div class="footer">
+
+  <div id="footerContent">
+    {#each foots as foot}	
+    <a class={!mobile ? "" : "mobile"} href={foot[1]}>
+      {foot[0]}
+    </a>
+    {/each}
+  </div>
+</div>
+<!------------------ css  below ------------------------>
+
 
 <style global>
    :global(body) {
@@ -71,4 +88,14 @@ background-color: transparent;
 text-decoration: underline;
 }
 
+.footer{
+    width:100%; 
+    background-color: rgba(17, 17, 17, 0.993);
+    border-radius: 5px;
+}
+.footerContent{
+    margin: 0 auto; width: 960px;
+    
+}
+ 
 </style>
