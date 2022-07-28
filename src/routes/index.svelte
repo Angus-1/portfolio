@@ -36,7 +36,7 @@ import { experiences } from '../components/experience';
 <section id = About> 
 <div class="about-container">
    <section>
-         <h2 class="about-title">About me</h2>
+         <h2 class="about-title">About me</h2><br><br>
          <div class = "header-image"></div>
          <div class="about-subtitle">
              <p>
@@ -55,14 +55,14 @@ import { experiences } from '../components/experience';
 <section id="Experience">
   <div class="prof-exp"> 
 	<div class="work-experience">
-		<h1 class="exp-header">Experience  <br>______________________________________________________________<br></h1>			
+		<h1 class="exp-header">Experience  <br>______________________________________________<br></h1>			
 			{#each experiences as experience}
 				<Dropdown heading={experience.heading} content={experience.content} link={experience.link}/>
 			{/each}
 		</div></div>
 
     <div class="projects">
-      <h1 class="project-experience">Projects <br>______________________________________________________________<br></h1>			
+      <h1 class="project-experience">Projects <br>______________________________________________<br></h1>			
         {#each projects as project}
           <Dropdown heading={project.heading} content={project.content} link={project.link}/>
         {/each}
@@ -71,27 +71,6 @@ import { experiences } from '../components/experience';
 
 		
 
-<!------------------ contact below ------------------------>
-
-    <section id="Contact">   
-      <div class="contact-info">
-        <p>   
-       
-    
-            <span class="contact-text"> 
-            <a href="http://www.santoyox714@gmail.com"> 📧Email </a>
-            </span>
-            <br>
-            <span class="contact-text2">  
-                <a href="https://github.com/Angus-1">  💻Github </a>
-            </span>
-            <br>
-             <span class="contact-text3">
-                <a href="https://www.linkedin.com/in/asantoyo/"> 👥Linkedin </a>
-             </span>
-         </p>
-        </div>
-  </section>
   
 
    <!------------------ css below ------------------------> 
@@ -147,7 +126,7 @@ import { experiences } from '../components/experience';
  /*------------------  about css  ------------------ */
   .about-container {
       position: relative;
-      top: 10rem;
+      top: 12rem;
       padding:0;
       background-color: #053f6e; 
       background-position-x: right; 
@@ -193,22 +172,11 @@ import { experiences } from '../components/experience';
     background-color: #053f6e;  
     padding:0;
     border-radius: 10px;
-    padding-left: 10px;
+    padding-left: 10px; 
+    margin-bottom: 15rem;
+   
    }
- /*------------------  contact css  ------------------ */
-   .contact-info {
-    margin-top: 50rem;
-    margin-bottom: 20rem;
-  width:500px;
-  height:125px;
-  border:1px;
-  background-color:#0a4e85 ;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: x-large;
-  margin-left: 2.5em
 
-}
 
 a:link {
 color: white;
