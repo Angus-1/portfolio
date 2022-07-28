@@ -156,15 +156,17 @@ footer{
 .footer-content p{
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
+    
    
     color: #cacdd2;
+    
 } 
 .contact-info {
   height:125px;
   background-color:transparent ;
   font-weight: 600;
   font-size: large;
+  line-height: 2;
 }
 .socials{
     list-style: none;

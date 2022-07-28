@@ -94,6 +94,7 @@ import { experiences } from '../components/experience';
       margin: 0;
       top: 10rem;
       padding:0;
+      
   }
   .text-1 {
       font-size: 4rem;
@@ -101,12 +102,14 @@ import { experiences } from '../components/experience';
       font-weight: 200;
       letter-spacing: -0.03em;
       color:white;
+      line-height: 1.0;
   }
  .text-2{
   font-size: 4rem;
   margin: 0rem;
   font-weight: 500;
   color:white;
+  line-height: 1.5;
  }   
  .text-3{
   font-size: 3rem;  
@@ -178,23 +181,7 @@ import { experiences } from '../components/experience';
    }
 
 
-a:link {
-color: white;
-background-color: transparent;
-text-decoration: none;
-}
 
-a:visited {
-color: white;
-background-color: transparent;
-text-decoration: none;
-}
-
-a:hover {
-color: rgba(126, 191, 245, 0.596);
-background-color: transparent;
-text-decoration: underline;
-}
 
 /*------------------  footer css  ------------------ */
 
