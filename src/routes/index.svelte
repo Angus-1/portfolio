@@ -135,8 +135,8 @@ import { experiences } from '../components/experience';
      margin: 0rem;
     font-weight: 200;
     color:white;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 3vw;
+    
   }
 
  /*------------------  about css  ------------------ */
