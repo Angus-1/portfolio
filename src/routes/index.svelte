@@ -31,7 +31,7 @@ import { experiences } from '../components/experience';
        <p class="text-2"> Angel</p> <br>
        </h1>
        <p class="text-3"> 💻 Aspiring Software Engineer 📱 </p> <br>
-       <p class="subtitle">  🔹 California State University, Fullerton 🔸 🐘 </p>
+       <p class="subtitle">   🔹 California State University, Fullerton 🔸  </p>
      </div>
      
 
@@ -111,6 +111,7 @@ import { experiences } from '../components/experience';
       letter-spacing: -0.03em;
       color:white;
       line-height: 1.0;
+      max-width: 100%;
   }
  .text-2{
   font-size: 4rem;
@@ -118,6 +119,7 @@ import { experiences } from '../components/experience';
   font-weight: 500;
   color:white;
   line-height: 1.5;
+  
  }   
  .text-3{
   font-size: 3rem;  
@@ -127,6 +129,7 @@ import { experiences } from '../components/experience';
   line-height: 3rem;
   color:white;
  }    
+ 
   .subtitle {
      font-size: 2.0rem;
      margin: 0rem;
