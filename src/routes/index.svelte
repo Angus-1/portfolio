@@ -86,7 +86,7 @@ import { experiences } from '../components/experience';
       :global(body) {
   background-color: #143957;
   color: #fffefe;
-    background-image: url("./src/components/background3.jpg");     
+  background-image: radial-gradient(circle,#069ac7, rgb(5, 58, 128),#111111);
     background-size: inherit;
     background-repeat: repeat;
     
@@ -136,6 +136,7 @@ import { experiences } from '../components/experience';
     font-weight: 200;
     color:white;
     padding-left: 2vw;
+    padding-right: 2vw;
   }
 
  /*------------------  about css  ------------------ */

@@ -68,7 +68,7 @@
 <style global>
    :global(body) {
     height: 100%;
-    background-color: radial-gradient(circle,#9cdcfa, rgb(5, 58, 128),#111111); 
+  
     background-size: auto;
   color: #fffefe;
   background-image: radial-gradient(circle,#9cdcfa, rgb(5, 58, 128),#111111);  
