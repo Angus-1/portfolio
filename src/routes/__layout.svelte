@@ -68,10 +68,10 @@
 <style global>
    :global(body) {
     height: 100%;
-    background-color: #5db5fd;
+    background-color: radial-gradient(circle,#9cdcfa, rgb(5, 58, 128),#111111); 
     background-size: auto;
   color: #fffefe;
-    background-image: ("./static/background6.jpg");     
+  background-image: radial-gradient(circle,#9cdcfa, rgb(5, 58, 128),#111111);  
     background-size: inherit;
     background-repeat: repeat;
    
