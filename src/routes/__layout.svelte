@@ -41,7 +41,7 @@
               <div class="contact-info">
                 <p>   
                   <a href=" https://github.com/Angus-1">           <img src = './src/static/github.png' width="70px"  alt=git/> </a>            
-                  <a href="mailto:santoyox714@gmail.com">      <img src = './src/static/gmail.png'width="60px" alt=gmail/> </a>          
+                  <a href=" mailto:santoyox714@gmail.com">      <img src = './src/static/gmail.png'width="60px" alt=gmail/> </a>          
                   <a href="https://www.linkedin.com/in/asantoyo/"> <img src = './src/static/linkedin.png'width="60px" alt=linkedin/> </a>
 
                 </div>
