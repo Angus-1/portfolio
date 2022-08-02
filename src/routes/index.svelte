@@ -8,22 +8,29 @@ import { experiences } from '../components/experience';
 	let Gmail = './static/gmail.png';
   let Linkedin = './static/linkedin';
   let name = 'contact image';
+
+
+  
+	let innerWidth = 0
+	let innerHeight = 0
+	$: mobile = innerWidth < 1080;
 </script>
 
-
+<svelte:window bind:innerWidth bind:innerHeight />
 <svelte:head>
  <title>Angel Santoyo</title>
 </svelte:head>
 
 <!------------------ welcome below ------------------------>
+
 <section id = welcome> 
 <div class="welcome-container">
  
        <h1>
        <p class="text-1">Hello! My name is</p>
-       <p class="text-2"> Angel</p>
+       <p class="text-2"> Angel</p> <br>
        </h1>
-       <p class="text-3"> 💻 Aspiring Software Engineer 📱 </p>
+       <p class="text-3"> 💻 Aspiring Software Engineer 📱 </p> <br>
        <p class="subtitle">  🔹 California State University, Fullerton 🔸 🐘 </p>
      </div>
      
@@ -84,6 +91,7 @@ import { experiences } from '../components/experience';
     background-repeat: repeat;
     
 }
+
   .welcome-container {
       position: relative;
       max-width: fit-content;
@@ -120,7 +128,7 @@ import { experiences } from '../components/experience';
   color:white;
  }    
   .subtitle {
-     font-size: 2rem;
+     font-size: 2.0rem;
      margin: 0rem;
     font-weight: 200;
     color:white;

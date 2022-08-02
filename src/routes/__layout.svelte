@@ -82,15 +82,19 @@
         max-width: 100%;;
         margin: 3px auto;
         background-color: transparent;
-        color:white;
-        text-indent: 90px;
         border-radius: 10px;
         padding: 1rem;
         display: flex;
         font-weight: 600;
         font-size:x-large;
+        padding: 2rem;
+		    padding-left: 5vw;
+		    padding-right: 5vw;
+		    justify-content: space-evenly;
+		    align-items: center;
+		    width: auto;
+		    list-style: none;
   }
-  
 
   
   a:link {
