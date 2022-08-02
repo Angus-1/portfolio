@@ -84,7 +84,7 @@ import { experiences } from '../components/experience';
 <style>
       /*------------------  welcome css  ------------------ */
       :global(body) {
-  background-color: #143957;
+  background-color: radial-gradient(circle,#069ac7, rgb(5, 58, 128),#111111);
   color: #fffefe;
   background-image: radial-gradient(circle,#069ac7, rgb(5, 58, 128),#111111);
     background-size: inherit;
