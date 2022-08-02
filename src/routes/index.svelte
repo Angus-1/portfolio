@@ -135,6 +135,7 @@ import { experiences } from '../components/experience';
      margin: 0rem;
     font-weight: 200;
     color:white;
+    padding-left: 2vw;
   }
 
  /*------------------  about css  ------------------ */
@@ -188,7 +189,7 @@ import { experiences } from '../components/experience';
     border-radius: 10px;
     padding-left: 10px; 
     margin-bottom: 15rem;
-   
+    
    }
 
 
