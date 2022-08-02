@@ -19,6 +19,9 @@ adds image that is clickable
     <a href="http://www.example.com"><img class="home-img" src="/path-to-image" /></a>
    </div>
 
+   <a href="http://www.santoyox714@gmail.com"> <img src = './src/static/github.png' width="70px"  alt=git/> </a>            
+                        <a href="https://github.com/Angus-1">  <img src = './src/static/gmail.png'width="60px" alt=gmail/> </a>          
+                        <a href="https://www.linkedin.com/in/asantoyo/"> <img src = './src/static/linkedin.png'width="60px" alt=linkedin/> </a>
 
 
  
