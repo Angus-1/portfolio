@@ -27,10 +27,9 @@ import { experiences } from '../components/experience';
 <div class="welcome-container">
  
        <h1>
-       <p class="text-1">Hello! My name is</p>
-       <p class="text-2"> Angel</p> <br>
+       <p class="text-1">Hello! My name is Angel</p> <br>
        </h1>
-       <p class="text-3"> 💻 Aspiring Software Engineer 📱 </p> <br>
+       <p class="text-2"> 💻 Aspiring Software Engineer 📱 </p> <br>
        <p class="subtitle">   🔹 California State University, Fullerton 🔸  </p>
      </div>
      
@@ -112,16 +111,11 @@ import { experiences } from '../components/experience';
       color:white;
       line-height: 1.0;
       max-width: 100%;
+      padding-left: 1vw;
   }
+ 
+   
  .text-2{
-  font-size: 4rem;
-  margin: 0rem;
-  font-weight: 500;
-  color:white;
-  line-height: 1.5;
-  
- }   
- .text-3{
   font-size: 3rem;  
   margin: 0rem;
   margin-top: 0rem;
