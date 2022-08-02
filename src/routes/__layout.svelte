@@ -82,6 +82,7 @@
         max-width: 100%;;
         margin: 3px auto;
         background-color: transparent;
+        color:rgb(191, 229, 252);
         border-radius: 10px;
         padding: 1rem;
         display: flex;
@@ -98,19 +99,19 @@
 
   
   a:link {
-color: white;
+    color:rgb(191, 229, 252);
 background-color: transparent;
 text-decoration: none;
 }
 
 a:visited {
-color: white;
+  color:rgb(191, 229, 252);
 background-color: transparent;
 text-decoration: none;
 }
 
 a:hover {
-color: rgba(126, 191, 245, 0.596);
+color: rgba(254, 254, 255, 0.596);
 background-color: transparent;
 text-decoration: underline;
 }
@@ -133,7 +134,7 @@ footer{
     height: auto;
     width: 100%;
     padding-top: 40px;
-    color: #fff;
+    color: rgb(191, 229, 252);
 }
 .footer-content{
     display: flex;
@@ -153,7 +154,7 @@ footer{
     margin: 10px auto;
     
    
-    color: #cacdd2;
+    color: rgb(131, 176, 204);
     
 } 
 .contact-info {

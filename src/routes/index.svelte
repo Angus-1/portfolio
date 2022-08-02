@@ -108,7 +108,7 @@ import { experiences } from '../components/experience';
       margin: 0rem;
       font-weight: 200;
       letter-spacing: -0.03em;
-      color:white;
+      color:rgb(191, 229, 252);
       line-height: 1.0;
       max-width: 100%;
       padding-left: 1vw;
@@ -121,14 +121,14 @@ import { experiences } from '../components/experience';
   margin-top: 0rem;
   font-weight: 200;
   line-height: 3rem;
-  color:white;
+  color:rgb(191, 229, 252);
  }    
  
   .subtitle {
      font-size: 2.0rem;
      margin: 0rem;
     font-weight: 200;
-    color:white;
+    color:rgb(191, 229, 252);
     padding-left: 3vw;
     
   }
@@ -148,7 +148,7 @@ import { experiences } from '../components/experience';
        font-size: 3.0rem;
        font-weight: 650;
        margin-top: 30rem;
-       color:white;
+       color:rgb(171, 222, 253);
        text-align: center;
    }
    
@@ -158,7 +158,7 @@ import { experiences } from '../components/experience';
        font-weight: 500;
        font-size: 1.5rem;
        line-height: 2rem;
-       color:white;
+       color:rgb(191, 229, 252);
    }
 
 
@@ -169,7 +169,7 @@ import { experiences } from '../components/experience';
     margin-bottom: 10rem;
     position: relative;
     top: 7rem;
-    color:white;
+    color:rgb(191, 229, 252);
     background-color: #053f6e; 
     padding:0;
     border-radius: 10px;
@@ -178,7 +178,7 @@ import { experiences } from '../components/experience';
 
    .projects{
     position: relative;
-    color:white;
+    color:rgb(191, 229, 252);
     background-color: #053f6e;  
     padding:0;
     border-radius: 10px;
