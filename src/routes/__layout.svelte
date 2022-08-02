@@ -92,7 +92,7 @@
         margin: 3px auto;
         background-color: transparent;
         color:white;
-        text-indent: 60px;
+        text-indent: 100px;
         border-radius: 10px;
         padding: 1rem;
         display: flex;
