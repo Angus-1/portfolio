@@ -55,14 +55,14 @@ import { experiences } from '../components/experience';
 <section id="Experience">
   <div class="prof-exp"> 
 	<div class="work-experience">
-		<h1 class="exp-header">Experience  <br>______________________________________________<br></h1>			
+		<h1 class="exp-header">Experience  </h1>			
 			{#each experiences as experience}
 				<Dropdown heading={experience.heading} content={experience.content} link={experience.link}/>
 			{/each}
 		</div></div>
 
     <div class="projects">
-      <h1 class="project-experience">Projects <br>______________________________________________<br></h1>			
+      <h1 class="project-experience">Projects </h1>			
         {#each projects as project}
           <Dropdown heading={project.heading} content={project.content} link={project.link}/>
         {/each}
