@@ -12,6 +12,7 @@
 	let innerWidth = 0
 	let innerHeight = 0
 	$: mobile = innerWidth < 1080;
+
 </script>
 
 <svelte:window bind:innerWidth bind:innerHeight />
@@ -32,27 +33,17 @@
   <footer>
       <div class="footer-content">
           <h3>Angel Santoyo</h3>
-          <p>Feel Free to contact me any way below</p>
-          <ul class="socials">
+          <p>Feel free to contact me below</p>
+         
 
-            
+          <ul class="socials">
             <section id="Contact">   
               <div class="contact-info">
                 <p>   
-               
-            
-                    <span class="contact-text"> 
-                    <a href="http://www.santoyox714@gmail.com"> 📧Email </a>
-                    </span>
-                    <br>
-                    <span class="contact-text2">  
-                        <a href="https://github.com/Angus-1">  💻Github </a>
-                    </span>
-                    <br>
-                     <span class="contact-text3">
-                        <a href="https://www.linkedin.com/in/asantoyo/"> 👥Linkedin </a>
-                     </span>
-                 </p>
+                  <a href=" https://github.com/Angus-1">           <img src = './src/static/github.png' width="70px"  alt=git/> </a>            
+                  <a href="mailto:santoyox714@gmail.com">      <img src = './src/static/gmail.png'width="60px" alt=gmail/> </a>          
+                  <a href="https://www.linkedin.com/in/asantoyo/"> <img src = './src/static/linkedin.png'width="60px" alt=linkedin/> </a>
+
                 </div>
           </section>
           </ul>
@@ -64,7 +55,7 @@
                       <li><a href="#">Home</a></li>
                       <li><a href="#About">About</a></li>
                       <li><a href="#Experience">Experience</a></li>
-                     
+                      
                     </ul>
                   </div>
       </div>
@@ -80,7 +71,7 @@
     background-color: #5db5fd;
     background-size: auto;
   color: #fffefe;
-    background-image: ("./static/background2.jpg");     
+    background-image: ("./static/background6.jpg");     
     background-size: inherit;
     background-repeat: repeat;
    
@@ -92,7 +83,7 @@
         margin: 3px auto;
         background-color: transparent;
         color:white;
-        text-indent: 100px;
+        text-indent: 90px;
         border-radius: 10px;
         padding: 1rem;
         display: flex;
@@ -168,12 +159,14 @@ footer{
   font-size: large;
   line-height: 2;
 }
+
 .socials{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
+    
 }
 .socials li{
     margin: 0 10px;
